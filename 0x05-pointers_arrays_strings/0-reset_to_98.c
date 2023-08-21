@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * main - reset_to_98 updates the values of its pointers to 98
  * @c: pointer to n
@@ -7,5 +7,5 @@
  **/
 void reset_to_98(int *c)
 {
-	*n = 98;
+	*c = 98;
 }
