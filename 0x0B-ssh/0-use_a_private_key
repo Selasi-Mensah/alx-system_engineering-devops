@@ -1,4 +1,4 @@
 #!/bin/bash
-#Define Server IP address 
+#ssh to connect to server using the private key
 
-ssh ubuntu@107.23.104.1  -i ~/.ssh/school
+ssh -i ~/.ssh/school ubuntu@107.23.104.1
