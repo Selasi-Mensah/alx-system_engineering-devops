@@ -1,0 +1,4 @@
+#!/bin/bash
+#Define Server IP address 
+
+ssh ubuntu@107.23.104.1  -i ~/.ssh/school
