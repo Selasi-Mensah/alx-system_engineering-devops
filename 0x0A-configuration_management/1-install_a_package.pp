@@ -1,7 +1,5 @@
-# this manifest installs flask version 2.1.0 
-# from pip3
-
-package {'flask':
-ensure   =>'2.1.0',
-provider =>'pip3'
+# Install package
+package { 'puppet-lint':
+  ensure   => '2.1.1',
+  provider => 'gem',
 }
