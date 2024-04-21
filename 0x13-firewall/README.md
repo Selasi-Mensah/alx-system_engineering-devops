@@ -1,0 +1,1 @@
+This file basically has commands to install firewall and port forwarding
